@@ -25,7 +25,7 @@ class InstaBot:
         api.getMediaLikers(media_id)
         users = api.LastJson['users']
         for user in users:
-            users_list.append({'pk':user['pk'], 'username':user['username']})
+            users_list.append({'pk':user['kk'], 'username':user['username']})
         pprint.pprint(users_list)
 
     def follow_users(self,users_list):
