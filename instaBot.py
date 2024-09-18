@@ -1,4 +1,4 @@
-from InstagramAPI import InstagramAPI
+hyvftgybgfrom InstagramAPI import InstagramAPI
 from config import password
 import pprint
 from time import sleep
